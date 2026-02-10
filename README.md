@@ -58,9 +58,9 @@ Create a `.env` file in the project root with:
 Example `.env`:
 
 ```env
-VITE_KEYCLOAK_URL=http://localhost:8080
-VITE_KEYCLOAK_REALM=Orelse
-VITE_KEYCLOAK_CLIENT_ID=wincc-pam-gui
+VITE_KEYCLOAK_URL=
+VITE_KEYCLOAK_REALM=
+VITE_KEYCLOAK_CLIENT_ID=
 ```
 
 Restart the app after changing `.env`.
