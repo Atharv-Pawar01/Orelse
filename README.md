@@ -49,11 +49,11 @@ Electron + React desktop app for role-based access to **WinCC Runtime** and **Hm
 
 Create a `.env` file in the project root with:
 
-| Variable | Description | Example |
-|----------|-------------|---------|
-| `VITE_KEYCLOAK_URL` | Keycloak server base URL | `http://localhost:8080` (Keycloak 17+), or `http://localhost:8080/auth` (Keycloak 16 or older) |
-| `VITE_KEYCLOAK_REALM` | Realm name (must match Keycloak exactly) | `Orelse` or `orlese` |
-| `VITE_KEYCLOAK_CLIENT_ID` | Client ID created in Keycloak | `wincc-pam-gui` |
+| Variable | Description | 
+|----------|-------------|
+| `VITE_KEYCLOAK_URL` | Keycloak server base URL |  
+| `VITE_KEYCLOAK_REALM` | Realm name (must match Keycloak exactly) | 
+| `VITE_KEYCLOAK_CLIENT_ID` | Client ID created in Keycloak | 
 
 Example `.env`:
 
