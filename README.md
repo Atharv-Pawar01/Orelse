@@ -1,4 +1,4 @@
-# Orelse – WinCC PAM GUI
+# Orelse
 
 Electron + React desktop app for role-based access to **WinCC Runtime** and **HmiNavi**, with authentication and RBAC via **Keycloak**.
 
@@ -44,6 +44,8 @@ Electron + React desktop app for role-based access to **WinCC Runtime** and **Hm
 ---
 
 ## Configuration
+
+**Keycloak (zip) step-by-step:** See **[KEYCLOAK-SETUP.md](KEYCLOAK-SETUP.md)** for a full guide (Java, download, start, realm, roles, client, users, shared `.env`).
 
 ### 1. Keycloak (required for login)
 
@@ -93,7 +95,7 @@ You need a running Keycloak instance and a configured realm/client.
 
 ---
 
-### 3. WinCC Runtime (optional)
+### 3. WinCC Runtime 
 
 To use **WinCC Access → Launch Runtime** from the app:
 
@@ -104,7 +106,7 @@ To use **WinCC Access → Launch Runtime** from the app:
 
 ---
 
-### 4. HmiNavi (optional)
+### 4. HmiNavi
 
 To use **HmiNavi Access → Launch HmiNavi**:
 
